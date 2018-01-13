@@ -1,0 +1,83 @@
+body{
+    background-color: #aec9f2;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    background-color: grey;
+    margin: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: white;
+}
+
+.fa-plus{
+    float: right;
+}
+
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    background-color: white;
+    line-height: 40px;
+    height: 40px;
+}
+
+li:nth-child(2n){
+    background-color: aliceblue;
+}
+
+span{
+    background-color: #f45942;
+    height: 40px;
+    margin-right: 40px;
+    text-align: center;
+    color: white;
+    width: 0px;
+    display: inline-block;
+    transition: 0.2s linear;
+    opacity: 0;
+}
+
+li:hover span{
+    width: 40px;
+    opacity: 1;
+}
+
+input{
+    font-size: 18px;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+}
+
+input:focus{
+    background-color: white;
+    border: 2px solid green;
+    outline: none;
+    
+}
+
+#container{
+    width: 360px;
+    margin: 100px auto;
+    box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+    background-color: white;
+}
+
+.completed{
+    color:gray;
+    text-decoration: line-through;
+}
+
